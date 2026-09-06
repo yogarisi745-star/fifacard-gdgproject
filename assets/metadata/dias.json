@@ -1,0 +1,43 @@
+{
+  "name": "Rúben Dias",
+  "description": "Official Rare FIFA Football Card for Rúben Dias.",
+  "image": "ipfs://placeholder/dias.svg",
+  "attributes": [
+    {
+      "trait_type": "Position",
+      "value": "CB"
+    },
+    {
+      "trait_type": "Overall",
+      "value": "88"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Pace",
+      "value": "67"
+    },
+    {
+      "trait_type": "Shooting",
+      "value": "39"
+    },
+    {
+      "trait_type": "Passing",
+      "value": "68"
+    },
+    {
+      "trait_type": "Dribbling",
+      "value": "69"
+    },
+    {
+      "trait_type": "Defending",
+      "value": "89"
+    },
+    {
+      "trait_type": "Physical",
+      "value": "87"
+    }
+  ]
+}

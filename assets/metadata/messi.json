@@ -1,0 +1,43 @@
+{
+  "name": "Lionel Messi",
+  "description": "Official Legendary FIFA Football Card for Lionel Messi.",
+  "image": "ipfs://placeholder/messi.svg",
+  "attributes": [
+    {
+      "trait_type": "Position",
+      "value": "RW"
+    },
+    {
+      "trait_type": "Overall",
+      "value": "95"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Pace",
+      "value": "89"
+    },
+    {
+      "trait_type": "Shooting",
+      "value": "92"
+    },
+    {
+      "trait_type": "Passing",
+      "value": "94"
+    },
+    {
+      "trait_type": "Dribbling",
+      "value": "95"
+    },
+    {
+      "trait_type": "Defending",
+      "value": "35"
+    },
+    {
+      "trait_type": "Physical",
+      "value": "68"
+    }
+  ]
+}

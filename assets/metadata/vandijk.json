@@ -1,0 +1,43 @@
+{
+  "name": "Virgil van Dijk",
+  "description": "Official Epic FIFA Football Card for Virgil van Dijk.",
+  "image": "ipfs://placeholder/vandijk.svg",
+  "attributes": [
+    {
+      "trait_type": "Position",
+      "value": "CB"
+    },
+    {
+      "trait_type": "Overall",
+      "value": "89"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Pace",
+      "value": "78"
+    },
+    {
+      "trait_type": "Shooting",
+      "value": "60"
+    },
+    {
+      "trait_type": "Passing",
+      "value": "71"
+    },
+    {
+      "trait_type": "Dribbling",
+      "value": "72"
+    },
+    {
+      "trait_type": "Defending",
+      "value": "91"
+    },
+    {
+      "trait_type": "Physical",
+      "value": "86"
+    }
+  ]
+}

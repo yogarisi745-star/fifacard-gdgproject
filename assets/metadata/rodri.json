@@ -1,0 +1,43 @@
+{
+  "name": "Rodri",
+  "description": "Official Epic FIFA Football Card for Rodri.",
+  "image": "ipfs://placeholder/rodri.svg",
+  "attributes": [
+    {
+      "trait_type": "Position",
+      "value": "CM"
+    },
+    {
+      "trait_type": "Overall",
+      "value": "91"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Pace",
+      "value": "61"
+    },
+    {
+      "trait_type": "Shooting",
+      "value": "74"
+    },
+    {
+      "trait_type": "Passing",
+      "value": "85"
+    },
+    {
+      "trait_type": "Dribbling",
+      "value": "80"
+    },
+    {
+      "trait_type": "Defending",
+      "value": "87"
+    },
+    {
+      "trait_type": "Physical",
+      "value": "85"
+    }
+  ]
+}

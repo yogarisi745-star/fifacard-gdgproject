@@ -1,0 +1,43 @@
+{
+  "name": "Alisson Becker",
+  "description": "Official Rare FIFA Football Card for Alisson Becker.",
+  "image": "ipfs://placeholder/alisson.svg",
+  "attributes": [
+    {
+      "trait_type": "Position",
+      "value": "GK"
+    },
+    {
+      "trait_type": "Overall",
+      "value": "89"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Pace",
+      "value": "86"
+    },
+    {
+      "trait_type": "Shooting",
+      "value": "85"
+    },
+    {
+      "trait_type": "Passing",
+      "value": "85"
+    },
+    {
+      "trait_type": "Dribbling",
+      "value": "89"
+    },
+    {
+      "trait_type": "Defending",
+      "value": "48"
+    },
+    {
+      "trait_type": "Physical",
+      "value": "90"
+    }
+  ]
+}

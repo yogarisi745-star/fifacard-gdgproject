@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 500" width="350" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333ea"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="10" y="10" width="330" height="480" rx="24" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="4"/>
+  <rect x="18" y="18" width="314" height="464" rx="18" fill="none" stroke="#9333ea" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <!-- Top Info Badge -->
+  <text x="45" y="70" font-family="'Outfit', sans-serif" font-weight="900" font-size="44" fill="#9333ea">91</text>
+  <text x="45" y="96" font-family="'Outfit', sans-serif" font-weight="700" font-size="20" fill="#94a3b8">CM</text>
+
+  <!-- Rarity Pill -->
+  <rect x="200" y="45" width="105" height="28" rx="14" fill="#9333ea" fill-opacity="0.2" stroke="#9333ea" stroke-width="1"/>
+  <text x="252" y="64" font-family="'Outfit', sans-serif" font-weight="700" font-size="12" fill="#9333ea" text-anchor="middle">EPIC</text>
+
+  <!-- Player Avatar Graphic -->
+  <circle cx="175" cy="180" r="65" fill="#1e293b" stroke="#9333ea" stroke-width="2"/>
+  <text x="175" y="195" font-family="sans-serif" font-size="50" text-anchor="middle">⚽</text>
+
+  <!-- Player Name -->
+  <text x="175" y="290" font-family="'Outfit', sans-serif" font-weight="800" font-size="24" fill="#ffffff" text-anchor="middle" letter-spacing="1">RODRI</text>
+  <line x1="50" y1="305" x2="300" y2="305" stroke="#9333ea" stroke-opacity="0.5" stroke-width="2"/>
+
+  <!-- Stats Grid -->
+  <g font-family="'Outfit', sans-serif" font-size="14" fill="#e2e8f0">
+    <text x="75" y="340"><tspan font-weight="bold" fill="#9333ea">61</tspan> PAC</text>
+    <text x="75" y="375"><tspan font-weight="bold" fill="#9333ea">74</tspan> SHO</text>
+    <text x="75" y="410"><tspan font-weight="bold" fill="#9333ea">85</tspan> PAS</text>
+
+    <text x="195" y="340"><tspan font-weight="bold" fill="#9333ea">80</tspan> DRI</text>
+    <text x="195" y="375"><tspan font-weight="bold" fill="#9333ea">87</tspan> DEF</text>
+    <text x="195" y="410"><tspan font-weight="bold" fill="#9333ea">85</tspan> PHY</text>
+  </g>
+
+  <!-- Footer Tag -->
+  <text x="175" y="455" font-family="'Outfit', sans-serif" font-weight="600" font-size="11" fill="#64748b" text-anchor="middle">FIFA BLOCKCHAIN CARD GAME</text>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "name": "fifa-blockchain-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for FIFA Football Card NFT Marketplace",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node",
+    "upload-ipfs": "node scripts/uploadToIPFS.js"
+  },
+  "keywords": [
+    "solidity",
+    "hardhat",
+    "erc721",
+    "nft",
+    "marketplace",
+    "ethereum",
+    "sepolia"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0"
+  }
+}
