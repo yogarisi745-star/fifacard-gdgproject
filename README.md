@@ -20,6 +20,14 @@ FIFA CARDZ is a Web3 application built for minting, listing, buying, and trading
   - Trivia quiz with a live timer determining 1st, 2nd, and 3rd draft priority based on accuracy and speed.
   - **Strict Unique Token Draft**: Players draft actual unique NFT card tokens so no two players get duplicate cards.
 
+## 📸 Application Screenshots
+
+### 🖼️ Marketplace Gallery & Listings
+![FIFA CARDZ Marketplace](assets/screenshots/marketplace.png)
+
+### 📦 My Collection & MetaMask Wallet Connection
+![FIFA CARDZ My Collection](assets/screenshots/my_collection.png)
+
 ---
 
 ## 🛠 Tech Stack
