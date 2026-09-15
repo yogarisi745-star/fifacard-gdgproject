@@ -1,10 +1,10 @@
-# FIFA CARDZ — Decentralized ERC-721 NFT Marketplace & Draft Game
+# ⚽ FIFA CARDZ — Decentralized ERC-721 NFT Marketplace & Draft Game
 
-FIFA CARDZ is a Web3 application built for minting, listing, buying, and trading unique FIFA Football Card NFTs on the Ethereum blockchain. It also includes an interactive 4-round multiplayer draft game where players answer football trivia to gain draft priority for unique player cards.
+FIFA CARDZ is a Web3 application built for minting, listing, buying, and trading unique FIFA Football Card NFTs on the Ethereum blockchain. It includes an interactive 4-round multiplayer draft game where players answer football trivia to gain draft priority for unique player cards.
 
 ---
 
-## 🌟 Features
+## 📋 Project Overview & Features
 
 - **ERC-721 Smart Contracts (`FootballCard.sol`)**: Mint unique player card NFTs with token IDs and IPFS/JSON metadata.
 - **Marketplace Contract (`Marketplace.sol`)**:
@@ -12,21 +12,13 @@ FIFA CARDZ is a Web3 application built for minting, listing, buying, and trading
   - `buyItem()`: Purchase cards directly; automatically transfers the NFT to the buyer and sends ETH to the seller.
   - `cancelListing()`: Cancel active card listings anytime.
   - Reentrancy protection via OpenZeppelin `ReentrancyGuard`.
-- **Marketplace & Filters**: Search cards by player name, filter by position/rarity, and sort by price or rating.
+- **Marketplace Gallery**: Search cards by player name, filter by position/rarity, and sort by price or rating.
 - **My Collection**: Displays cards owned by the connected wallet and squad overall rating.
 - **Admin Mint Portal**: Admin interface for minting new cards via presets or IPFS URIs.
 - **4-Round Quiz & Draft Game**:
   - 4 position rounds: Goalkeeper (GK), Defender (DEF), Midfielder (MID), Attacker (FWD).
   - Trivia quiz with a live timer determining 1st, 2nd, and 3rd draft priority based on accuracy and speed.
   - **Strict Unique Token Draft**: Players draft actual unique NFT card tokens so no two players get duplicate cards.
-
-## 📸 Application Screenshots
-
-### 🖼️ Marketplace Gallery & Listings
-![FIFA CARDZ Marketplace](assets/screenshots/marketplace.png)
-
-### 📦 My Collection & MetaMask Wallet Connection
-![FIFA CARDZ My Collection](assets/screenshots/my_collection.png)
 
 ---
 
@@ -39,7 +31,46 @@ FIFA CARDZ is a Web3 application built for minting, listing, buying, and trading
 
 ---
 
-## 🚀 How to Run Locally
+## 🌐 Testnet & Contract Addresses
+
+### Localhost Network (`chainId: 31337`)
+- **FootballCard Contract**: `0x5FbDB2315678afecb367f032d93F642f64180aa3`
+- **Marketplace Contract**: `0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512`
+
+### Sepolia Testnet (`chainId: 11155111`)
+To deploy to Sepolia:
+1. Configure `SEPOLIA_RPC_URL` and `PRIVATE_KEY` in `contracts/.env`.
+2. Run `npx hardhat run scripts/deploy.js --network sepolia`.
+
+---
+
+## 📦 IPFS Implementation
+
+Card metadata files adhere strictly to the ERC-721 Metadata Standard:
+- **Card Graphics & JSON Schema**: Card metadata is formatted as JSON containing `name`, `description`, `image` (`ipfs://...`), and `attributes` (Position, Overall, Rarity, Pace, Shooting, etc.).
+- **Metadata Storage**: Referenced via IPFS URIs (e.g. `ipfs://QmFIFAFootballCardCollectionCid/messi.json`).
+- **Upload Script**: Automated uploading utility located at [`contracts/scripts/uploadToIPFS.js`](file:///c:/gdgtask/contracts/scripts/uploadToIPFS.js).
+
+---
+
+## 📸 Screenshots
+
+### Marketplace Gallery & Listings
+![FIFA CARDZ Marketplace](assets/screenshots/marketplace.png)
+
+### My Collection & MetaMask Wallet Connection
+![FIFA CARDZ My Collection](assets/screenshots/my_collection.png)
+
+---
+
+## 🔗 Deployed Link
+
+- **Local Development App**: `http://localhost:3000`
+- **GitHub Repository**: `https://github.com/yogarisi745-star/fifacard-gdgproject`
+
+---
+
+## 🚀 Setup Instructions
 
 ### 1. Install dependencies
 
@@ -113,7 +144,8 @@ fifa-blockchain-card-game/
 │   │   └── Marketplace.sol
 │   ├── scripts/
 │   │   ├── deploy.js
-│   │   └── mintInitialCards.js
+│   │   ├── mintInitialCards.js
+│   │   └── uploadToIPFS.js
 │   ├── test/
 │   │   └── FootballCard.test.js
 │   └── hardhat.config.js
